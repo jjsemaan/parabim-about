@@ -3,9 +3,24 @@
 
 /*--------------------------------- colours*/
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #c0c0c0;
 }
 
+.ui-menu-color-home {
+    background-color: #eec102;
+}
+
+.ui-menu-color-projects {
+    background-color: #64b244;
+}
+
+.ui-menu-color-contact {
+    background-color: #d9492f;
+}
+
+.ui-menu-color-download {
+    background-color: #638bfd;
+}
 
 /*--------------------------------- heading*/
 header {
@@ -32,7 +47,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    color: #434343;
 }
 
 .title {
@@ -41,5 +56,5 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    color: #434343;
 }
