@@ -44,7 +44,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 46px;
     margin-top: 50px;
     color: #434343;
@@ -57,4 +57,21 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #434343;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0; 
+    /*Using Inspect in google chrome we found this bootstrap 
+    class that is causing a gap between Home-Projects-contact-Download divs*/
+}
+
+.menucontainer {
+    font-size: 0; /*This will remove the remaining gap between 
+    Home-Projects-contact-Download divs but will make all font = 0*/
+}
+
+/*Now make the child items of the nav font 14px to solve the gap problem*/
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
