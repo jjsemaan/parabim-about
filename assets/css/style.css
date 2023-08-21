@@ -40,6 +40,10 @@ h4 {
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 
 /*--------------------------------- heading*/
 header {
@@ -51,14 +55,57 @@ header {
 }
 
 .logo {
+    min-height: 360px;
+    position: relative;
+    perspective: 1000px;
+    /* Needed for 3D transform */
+    /*transition: transform 0.5s ease-in-out;*/
+}
+
+.logo:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url("../images/parabim-weblogo.jpg");
+    /* Default image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    min-height: 360px;
+    /*transition: opacity 0.5s ease-in-out;*/
+    transform: rotateY(0deg);
+    /* Initial rotation state */
+    opacity: 1;
+}
+
+.logo:hover {
+    transform: rotateY(180deg);
+    /* Flipping horizontally */
+}
+
+.logo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/flip-image.jpg");
+    /* New image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity 0.2s ease-in-out;
+    transform: rotateY(180deg);
+    /* Initial rotation state */
+    opacity: 0;
+}
+
+.logo:hover:after {
+    opacity: 1;
+    /* Fade in new image */
 }
 
 .name {
@@ -142,4 +189,18 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.portfolio-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.portfolio-pdf i:hover {
+    color: #eec102;
 }
