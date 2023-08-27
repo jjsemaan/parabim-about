@@ -30,6 +30,10 @@
     border-bottom: #c0c0c0 1px solid;
 }
 
+/*.bg-color-personal-info {
+    background-color: #f4f4f4;
+}*/
+
 /*--------------------------------- special paddings, margins and text*/
 h1,
 h2,
@@ -268,6 +272,10 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+footer p {
+    margin-bottom: 2rem;
 }
 
 /* ----------------------------------------Three Reasons */
