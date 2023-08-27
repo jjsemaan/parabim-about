@@ -6,10 +6,6 @@
     background-color: #c0c0c0;
 }
 
-/*.bg-color-three-reasons {
-    background-color: #fff;
-}*/
-
 .ui-menu-color-home {
     background-color: #eec102;
     border-bottom: #c0c0c0 1px solid;
@@ -70,7 +66,13 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.section-heading-projects {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
 }
 
 /*--------------------------------- heading*/
@@ -292,7 +294,7 @@ footer p {
     margin-bottom: 2rem;
 }
 
-/* ----------------------------------------Three Reasons */
+/* ----------------------------------------Three Reasons*/
 
 .three-reasons-icon {
     font-size: 36px;
@@ -303,4 +305,38 @@ footer p {
 
 .three-reasons-heading {
     margin-bottom: 35px;
+}
+
+/* ----------------------------------------Film Strip*/
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+}
+
+/*.carousel-multi-item-2 .card img {
+    border-radius: 2px;
+}*/
+
+.controls-left, .controls-right {
+    display: inline-block;
+    font-size: 46px;
+    
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.controls-left i ,
+.controls-right i {
+    color: #e84610;
+}
+
+.controls-left {
+    justify-content: right;
+}
+
+.controls-right {
+    justify-content: left;
 }
