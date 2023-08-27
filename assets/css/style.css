@@ -73,6 +73,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 /*--------------------------------- heading*/
@@ -305,8 +306,19 @@ footer p {
 
 .three-reasons-heading {
     margin-bottom: 35px;
+    color: #333;
+    /* Set your desired text color */
+    text-decoration: none;
+    /* Remove underline */
+    cursor: pointer;
+    /* Change cursor to indicate clickable element */
 }
 
+.three-reasons-heading:hover {
+    color: #555;
+    text-decoration: underline;
+    
+}
 /* ----------------------------------------Film Strip*/
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
