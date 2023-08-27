@@ -218,6 +218,20 @@ header {
     letter-spacing: 2px;
 }
 
+/*------------------------ Custom CSS for button */
+.btn-primary {
+    background-color: #006cdf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
 /*--------------------------------- hover.css*/
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
