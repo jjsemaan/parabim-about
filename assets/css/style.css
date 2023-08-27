@@ -319,6 +319,11 @@ footer p {
     text-decoration: underline;
     
 }
+
+.card {
+    margin-left: -5px;
+    margin-right: -5px;
+}
 /* ----------------------------------------Film Strip*/
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
@@ -335,9 +340,10 @@ footer p {
 .controls-left, .controls-right {
     display: inline-block;
     font-size: 46px;
-    
     display: flex;
     margin-bottom: 4px;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
 }
 
 .controls-left i ,
