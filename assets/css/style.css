@@ -179,7 +179,9 @@ header {
 .menucontainer {
     font-size: 0; /*This will remove the remaining gap between 
     Home-Projects-contact-Download divs but will make all font = 0*/
-
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
 }
 
 #nav {
