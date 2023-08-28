@@ -103,6 +103,7 @@ header {
     left: 0;
     top: 0;
     opacity: 1;
+    padding: 0;
 }
 
 .logo:before {
