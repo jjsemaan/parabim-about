@@ -345,6 +345,8 @@ footer p {
         float: left;
         width: 25%;
         max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
 
