@@ -335,6 +335,8 @@ footer p {
         float: left;
         width: 25%;
         max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
@@ -349,6 +351,8 @@ footer p {
     margin-bottom: 4px;
     font-family: "Exo", sans-serif;
     font-weight: 300;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .controls-left i ,
