@@ -4,6 +4,8 @@
 /*--------------------------------- colours*/
 .bg-color-name-title {
     background-color: #c0c0c0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .ui-menu-color-home {
@@ -143,6 +145,7 @@ header {
     transform: rotateY(180deg);
     /* Initial rotation state */
     opacity: 0;
+    margin-right: 0;
 }
 
 .logo:hover:after {
@@ -176,6 +179,7 @@ header {
 .menucontainer {
     font-size: 0; /*This will remove the remaining gap between 
     Home-Projects-contact-Download divs but will make all font = 0*/
+
 }
 
 #nav {
@@ -335,8 +339,6 @@ footer p {
         float: left;
         width: 25%;
         max-width: 100%;
-        margin-right: 0;
-        margin-left: 0;
     }
 }
 
@@ -351,8 +353,6 @@ footer p {
     margin-bottom: 4px;
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .controls-left i ,
