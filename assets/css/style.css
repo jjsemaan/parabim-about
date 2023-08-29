@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body {
-    overflow-x: hidden;
-}
 /*--------------------------------- colours*/
 .bg-color-name-title {
     background-color: #c0c0c0;
@@ -254,7 +251,6 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    padding: 0;
 }
 
 .portfolio-pdf i {
