@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+body {
+    overflow-x: hidden;
+}
 /*--------------------------------- colours*/
 .bg-color-name-title {
     background-color: #c0c0c0;
@@ -231,19 +233,13 @@ header {
 }
 
 /*------------------------ Custom CSS for button */
-.btn-primary {
-    background-color: #006cdf;
-    color: #fff;
+.btn-success {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
     margin-bottom: 60px;
     margin-top: 20px;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
 }
 
 /*--------------------------------- hover.css*/
