@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.row {
+    max-width: 100%;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    max-width: 100%;
+}
+
 /*--------------------------------- colours*/
 .bg-color-name-title {
     background-color: #c0c0c0;
@@ -28,7 +39,7 @@
 }
 
 .bg-color-personal-info {
-    margin: 0;
+    margin: 25px 0 25px 10px;
 }
 
 /*--------------------------------- special paddings, margins and text*/
