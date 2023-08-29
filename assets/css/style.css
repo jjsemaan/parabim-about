@@ -28,9 +28,9 @@
     border-bottom: #c0c0c0 1px solid;
 }
 
-/*.bg-color-personal-info {
-    background-color: #f4f4f4;
-}*/
+.bg-color-personal-info {
+    margin: 0;
+}
 
 /*--------------------------------- special paddings, margins and text*/
 h1,
@@ -258,6 +258,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding: 0;
 }
 
 .portfolio-pdf i {
@@ -347,7 +348,6 @@ footer p {
         width: 25%;
         max-width: 100%;
         margin: 0;
-        padding: 0;
     }
 }
 
