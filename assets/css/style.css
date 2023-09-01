@@ -167,7 +167,7 @@ header {
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    font-size: 46px;
+    font-size: 50px;
     margin-top: 50px;
     color: #fff;
 }
@@ -175,10 +175,14 @@ header {
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item {
+    z-index: 3;
 }
 
 .list-inline-item:not(:last-child) {
@@ -394,19 +398,32 @@ canvas {
 
 #particles-js {
     position: absolute;
+    /* Change 'relative' to 'absolute' */
     width: 100%;
     height: 100%;
+    /* Set the height to 100% to cover the entire parent element */
+    
+    /* You can set a background image if needed */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    left: 0;
+    z-index: 2;
+    top: 0;
+    /* Add 'top' property and set it to 0 to position it at the top */
+    margin: 0;
+}
+
+#bg-color-name-title {
+    background-color: #c0c0c0;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     left: 0;
-}
-
-.bg-color-name-title {
-    background-color: #c0c0c0;
-    padding: 0;
-    left: 0;
+    z-index: 1;
+    position: relative;
+    /* Add 'position: relative' to make z-index work */
 }
 
 /* ---- stats.js ---- */
