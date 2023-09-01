@@ -98,7 +98,7 @@ header {
 }
 
 .logo {
-    min-height: 360px;
+    min-height: 260px;
     position: relative;
     perspective: 1000px;
     border-bottom: #c0c0c0 1px solid; 
@@ -127,12 +127,11 @@ header {
     /* Default image */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 30%;
     /*transition: opacity 0.5s ease-in-out;*/
     transform: rotateY(0deg);
     /* Initial rotation state */
     opacity: 1;
-    background-size: 40%;
 }
 
 .logo:hover {
@@ -151,7 +150,7 @@ header {
     /* New image */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 40%;
     transition: opacity 0.2s ease-in-out;
     transform: rotateY(180deg);
     /* Initial rotation state */
@@ -168,7 +167,7 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     color: #fff;
 }
 
@@ -177,7 +176,7 @@ header {
     font-weight: 300;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     color: #fff;
 }
 
@@ -214,7 +213,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 90px;
     text-align: center;
     padding: 0;
 }
@@ -223,11 +222,11 @@ header {
     width: 100%; /*To make the entire area clickable*/
     text-decoration: none; /*To remove the underline*/
     color: #fff;
-    height: 120px;
+    height: 90px;
 }
 
 .menuitem a i {
-    padding-top: 28px;
+    padding-top: 18px;
     display: block; /*To put the icon on top of the text*/
     color: #fafafa;
     font-size: 26px;
@@ -257,7 +256,7 @@ header {
 /*--------------------------------- hover.css*/
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 90px;
 }
 
 /* ----------------------------------------Footer */
@@ -412,18 +411,6 @@ canvas {
     top: 0;
     /* Add 'top' property and set it to 0 to position it at the top */
     margin: 0;
-}
-
-#bg-color-name-title {
-    background-color: #c0c0c0;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    left: 0;
-    z-index: 1;
-    position: relative;
-    /* Add 'position: relative' to make z-index work */
 }
 
 /* ---- stats.js ---- */
