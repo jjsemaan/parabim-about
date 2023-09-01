@@ -13,7 +13,7 @@ html {
 
 /*--------------------------------- colours*/
 .bg-color-name-title {
-    background-color: #c0c0c0;
+    background-color: #525252;
     padding: 0;
     left: 0;
 }
@@ -169,6 +169,8 @@ header {
     font-size: 50px;
     margin-top: 30px;
     color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title {
@@ -178,6 +180,8 @@ header {
     margin-top: 20px;
     margin-bottom: 50px;
     color: #fff;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .list-inline-item {
@@ -382,16 +386,6 @@ footer p {
 .controls-right {
     justify-content: left;
 }
-
-/* ---- particles.js reset ---- 
-body {
-    margin: 0;
-    font: normal 75% Arial, Helvetica, sans-serif;
-}
-canvas {
-    display: block;
-    vertical-align: bottom;
-}*/
 
 /* ---- particles.js container ---- */
 
