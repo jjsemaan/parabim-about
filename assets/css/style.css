@@ -268,7 +268,7 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    margin-bottom: 60px;
+    
     margin-top: 20px;
 }
 
@@ -276,6 +276,10 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 90px;
+}
+
+.text-justify {
+    padding-left: 20px;
 }
 
 /* ----------------------------------------Footer */
@@ -339,10 +343,19 @@ footer p {
     color: #e84610;
     display: flex;
     justify-content: center;
+    padding-left: 50px;
+}
+
+.card-icon {
+    font-size: 36px;
+    color: #e84610;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .three-reasons-heading {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     color: #333;
     /* Set your desired text color */
     text-decoration: none;
@@ -360,6 +373,7 @@ footer p {
 .three-reasons-heading-noclick {
     margin-bottom: 35px;
     color: #333;
+    padding-left: 20px;
 }
 
 .card-container {
