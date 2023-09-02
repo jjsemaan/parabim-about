@@ -39,7 +39,8 @@ html {
 }
 
 .bg-color-personal-info {
-    margin: 40px 0 15px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /*--------------------------------- special paddings, margins and text*/
@@ -70,7 +71,6 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0;
     float: none;
 }
 
@@ -130,6 +130,26 @@ header {
     z-index: 3;
 }
 
+.img-fluid {
+    max-height: 600px;
+}
+.img-fluid-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    max-height: 600px;
+}
+
+.img-trust {
+    max-width: 200px;
+    /* Set the maximum width you desire */
+    max-height: 200px;
+    /* Set the maximum height you desire */
+    width: auto;
+    height: auto;
+}
 /*@media (max-width: 576px) {
     .bg-poster, .logo {
         display: none;
@@ -284,7 +304,7 @@ header {
 }
 
 .text-justify {
-    padding-left: 20px;
+    padding-left: 50px;
     z-index: 3;
 }
 
@@ -379,7 +399,8 @@ footer p {
 .three-reasons-heading-noclick {
     margin-bottom: 35px;
     color: #333;
-    padding-left: 20px;
+    padding-left: 50px;
+    text-align: center;
 }
 
 .card-container {
@@ -403,6 +424,11 @@ footer p {
         max-width: 100%;
         margin: 0;
     }
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
 }
 
 /*.carousel-multi-item-2 .card img {
