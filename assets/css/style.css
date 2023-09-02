@@ -132,13 +132,7 @@ header {
 }
 
 @media (max-width: 576px) {
-    .bg-poster {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .logo {
+    .bg-poster, .logo {
         display: none;
     }
 }
