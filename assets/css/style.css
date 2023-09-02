@@ -39,7 +39,7 @@ html {
 }
 
 .bg-color-personal-info {
-    margin: 25px 0 25px 10px;
+    margin: 25px 0;
 }
 
 /*--------------------------------- special paddings, margins and text*/
@@ -70,7 +70,7 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0;
     float: none;
 }
 
@@ -347,9 +347,18 @@ footer p {
     color: #333;
 }
 
-.card {
+.card-container {
+    display: flex;
+    justify-content: center;
     margin-left: -5px;
     margin-right: -5px;
+}
+
+.card {
+    flex: 0 0 30%;
+    /* Adjust the width as needed */
+    margin: 0 30px;
+    padding: 10px 20px;
 }
 /* ----------------------------------------Film Strip*/
 @media (min-width: 768px) {
