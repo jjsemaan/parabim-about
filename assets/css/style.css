@@ -39,7 +39,7 @@ html {
 }
 
 .bg-color-personal-info {
-    margin: 25px 0;
+    margin: 40px 0 15px 0;
 }
 
 /*--------------------------------- special paddings, margins and text*/
@@ -114,6 +114,21 @@ header {
     top: 0;
     opacity: 1;
     padding: 0;
+    z-index: 1;
+}
+
+.bg-poster {
+    background: url("../images/parabim-poster.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    padding: 0;
+    z-index: 2;
+    mask: linear-gradient(to left, transparent 80%, black 100%);
 }
 
 .logo:before {
