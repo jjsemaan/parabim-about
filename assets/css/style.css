@@ -207,6 +207,14 @@ header {
     /* Fade in new image */
 }
 
+/* Media query for screens at or below medium (md) size */
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+        /* Hide the .logo element at medium screens */
+    }
+}
+
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -401,6 +409,7 @@ footer p {
 }
 
 .three-reasons-heading-noclick {
+    margin-top: 20px;
     margin-bottom: 35px;
     color: #333;
     padding-left: 50px;
@@ -425,7 +434,7 @@ footer p {
     padding-right: 0;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
     h5, .h5 {
         font-size: 1rem;
     }
@@ -443,6 +452,15 @@ footer p {
     }
 }
 /* ----------------------------------------Film Strip*/
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
         float: left;
