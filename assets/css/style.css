@@ -39,7 +39,7 @@ html {
 }
 
 .bg-color-personal-info {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -49,6 +49,10 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 .uppercase {
@@ -424,6 +428,18 @@ footer p {
 @media screen and (max-width: 350px) {
     h5, .h5 {
         font-size: 1rem;
+    }
+    h1.name {
+        font-size: 26px;
+    }
+    h2.title {
+        font-size: 16px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .three-reasons-heading-noclick {
+        font-size: 18px;
     }
 }
 /* ----------------------------------------Film Strip*/
