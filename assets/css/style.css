@@ -358,8 +358,17 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+}
+
 .social-links li a i:hover {
-    background: #e84610;
+    background: #638bfd;
 }
 
 #footer-details {
