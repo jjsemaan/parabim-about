@@ -154,11 +154,7 @@ header {
     width: auto;
     height: auto;
 }
-/*@media (max-width: 576px) {
-    .bg-poster, .logo {
-        display: none;
-    }
-}*/
+
 
 .logo:before {
     content: "";
@@ -409,7 +405,7 @@ footer p {
 }
 
 .three-reasons-heading-noclick {
-    margin-top: 20px;
+    margin-top: 45px;
     margin-bottom: 35px;
     color: #333;
     padding-left: 50px;
@@ -451,54 +447,10 @@ footer p {
         font-size: 18px;
     }
 }
-/* ----------------------------------------Film Strip*/
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-        float: left;
-        width: 25%;
-        max-width: 100%;
-        margin: 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .carousel-multi-item-2 .col-md-3 {
-        float: left;
-        width: 25%;
-        max-width: 100%;
-        margin: 0;
-    }
-}
 
 .thumbnail img {
     max-width: 100%;
     height: auto;
-}
-
-/*.carousel-multi-item-2 .card img {
-    border-radius: 2px;
-}*/
-
-.controls-left, .controls-right {
-    display: inline-block;
-    font-size: 46px;
-    display: flex;
-    margin-bottom: 4px;
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-}
-
-.controls-left i ,
-.controls-right i {
-    color: #e84610;
-}
-
-.controls-left {
-    justify-content: right;
-}
-
-.controls-right {
-    justify-content: left;
 }
 
 /* ---- particles.js container ---- */
