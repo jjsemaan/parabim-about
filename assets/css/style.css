@@ -530,3 +530,35 @@ footer p {
     float: left;
     margin-bottom: 10px;
 }
+
+
+/*----------------------------Contact us form*/
+/* Style for the floating labels */
+/* Style for the floating labels */
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.floating-label input,
+.floating-label textarea {
+    padding-top: 1.2rem;
+    /* Adjust the top padding to make room for the label */
+}
+
+.floating-label label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: transform 0.2s ease-out, font-size 0.2s ease-out;
+    transform-origin: 0 0;
+}
+
+.floating-label input:focus~label,
+.floating-label input:not(:placeholder-shown)~label,
+.floating-label textarea:focus~label,
+.floating-label textarea:not(:placeholder-shown)~label {
+    transform: translateY(-50%) scale(0.8);
+    font-size: 0.8rem;
+}
