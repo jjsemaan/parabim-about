@@ -527,7 +527,7 @@ footer p {
     text-align: center;
 }
 
-.portfolio-menu ul li {
+.portfolio-menu li {
     display: inline-block;
     margin: 0;
     list-style: none;
