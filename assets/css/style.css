@@ -17,6 +17,19 @@ html {
     max-width: 100%;
 }
 
+.container {
+    padding: 0;
+}
+
+
+
+div.col-xl-4 {
+    padding: 0;
+}
+
+iframe {
+    padding-bottom: 130px;
+}
 /*--------------------------------- colours*/
 .bg-color-name-title {
     background-color: #525252;
@@ -539,11 +552,8 @@ footer p {
 
 
 /*----------------------------Contact us form*/
-/* Style for the floating labels */
-/* Style for the floating labels */
-.form-group {
-    position: relative;
-    margin-bottom: 1rem;
+form {
+    padding-left: 30px;
 }
 
 .floating-label input,
