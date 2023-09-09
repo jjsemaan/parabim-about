@@ -18,10 +18,12 @@ html {
 }
 
 .container {
-    padding: 0;
+    padding-right: 0;
 }
 
-
+ul {
+    padding-left: 0;
+}
 
 div.col-xl-4 {
     padding: 0;
@@ -155,6 +157,8 @@ header {
 
 .img-fluid {
     max-height: 600px;
+    padding-left: 0;
+    margin-bottom: 5px;
 }
 .img-fluid-container {
     display: flex;
@@ -229,6 +233,12 @@ header {
     .logo {
         display: none;
         /* Hide the .logo element at medium screens */
+    }
+    .col-lg-4 {
+        padding-left: 0;
+    }
+    .container {
+        padding: 0;
     }
 }
 
@@ -324,6 +334,18 @@ header {
     border-radius: 5px;
     margin-bottom: 15px;
     margin-top: 20px;
+}
+
+.btn-outline-dark {
+    margin-bottom: 5px;
+}
+
+div.portfolio-menu li {
+    margin-bottom: 10px;
+}
+
+div.portfolio-menu ul {
+    padding-left: 30px;
 }
 
 /*--------------------------------- hover.css*/
@@ -438,7 +460,7 @@ footer p {
     margin-top: 45px;
     margin-bottom: 25px;
     color: #333;
-    padding-left: 30px;
+    padding-left: 60px;
     text-align: center;
 }
 
@@ -478,10 +500,43 @@ footer p {
         font-size: 1.3rem;
         margin-top: 30px;
         margin-bottom: 10px;
-        padding-left: 35px;
+        padding-left: 50px;
     }
     .col-12 {
         padding-right: 0;
+    }
+    .col-lg-12 {
+        padding-right: 0;
+    }
+    .col-xl-8 {
+        padding-right: 0;
+    }
+    .col-lg-4 {
+        padding-right: 40px;
+    }
+    .card-container {
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .three-reasons-heading {
+        font-size: 15px;
+        margin: 0;
+    }
+    .card-body {
+        padding: 0;
+        justify-content: center;
+    }
+    .card {
+        padding: 5px;
+    }
+    .card-container i {
+        visibility: hidden;
     }
 }
 
