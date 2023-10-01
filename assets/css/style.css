@@ -372,8 +372,6 @@ header {
 
 .only-bg-light {
     background-color: rgba(245, 245, 245, 0.6);
-    margin: 20px;
-    border-radius: 20px;
 }
 
 .title {
@@ -512,9 +510,7 @@ footer {
     color: #eec102;
 }
 
-.social-links {
-    padding-bottom: 15px;
-}
+
 
 .social-links li a i {
     width: 32px;
@@ -546,7 +542,7 @@ footer {
 }
 
 #footer-details {
-    padding: 20px 20px 20px 50px;
+    padding: 20px;
 }
 
 footer p {
@@ -569,6 +565,14 @@ footer p {
     display: flex;
     justify-content: center;
     
+}
+
+div.card {
+    margin-top: 5px;
+}
+
+div.card-container {
+    margin-bottom: 30px;
 }
 
 .three-reasons-heading {
@@ -594,13 +598,14 @@ footer p {
     text-align: center;
 }
 
-/*.card-container {
+.card-container {
     display: flex;
     justify-content: center;
     margin-left: -5px;
     margin-right: -5px;
     padding-left: 10px;
-}*/
+    padding-right: 10px;
+}
 
 .card {
     flex: 0 0 20%;
@@ -677,8 +682,14 @@ footer p {
 
 img.img-fluid {
     margin: 0;
-    margin: 20px;
-    padding: 40px;
+    padding: 80px 10px 0;
+    vertical-align: middle;
+    border-style: none;
+}
+
+img.img-fluid:last-child {
+    margin-bottom: 60px;
+    padding: 80px 10px 0;
     vertical-align: middle;
     border-style: none;
 }
