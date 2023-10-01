@@ -363,7 +363,7 @@ header {
 .main-text {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.2rem;
     margin: 20px;
     color: #212529;
     padding-left: 10px;
@@ -646,6 +646,7 @@ footer p {
     .card-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: -5px;
     margin-right: -5px;
     }
@@ -664,7 +665,8 @@ footer p {
         padding: 5px;
     }
     .card-container i {
-        visibility: hidden;
+        /*visibility: hidden;*/
+        font-size: 26px;
     }
 }
 
