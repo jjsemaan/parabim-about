@@ -167,10 +167,10 @@ iframe {
     border-bottom: #c0c0c0 1px solid;
 }
 
-.bg-color-personal-info {
+/*.bg-color-personal-info {
     margin-top: 0;
     margin-bottom: 20px;
-}
+}*/
 
 /*--------------------------------- special paddings, margins and text*/
 h1,
@@ -358,6 +358,22 @@ header {
     color: #fff;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.main-text {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 1.6em;
+    margin: 20px;
+    color: #212529;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.only-bg-light {
+    background-color: rgba(245, 245, 245, 0.6);
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .title {
@@ -653,7 +669,7 @@ footer p {
 
 img.img-fluid {
     margin: 0;
-    margin-top: -10px;
+    margin: 20px;
     padding: 20px;
     vertical-align: middle;
     border-style: none;
