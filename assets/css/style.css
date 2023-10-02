@@ -183,6 +183,22 @@ p {
     font-size: 1.25rem;
 }
 
+
+p.auto-type {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #525252;;
+}
+
+.typed-cursor.typed-cursor {
+    display: none;
+}
+/*
 .amazing {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -193,7 +209,6 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .amazing::before {
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -219,7 +234,7 @@ p {
     70%, 90% {
         width: 100%;
     }
-}
+}*/
 
 .zoom-effect {
     animation: zoom 6s ease-in-out;
@@ -394,10 +409,7 @@ header {
 
 /* Media query for screens at or below medium (md) size */
 @media (max-width: 1199px) {
-    .amazing, .amazing::before {
-        display: none;
-    }
-    p.main-text {
+    p.main-text, p.auto-type {
         text-align: center;
     }
 }
@@ -427,7 +439,7 @@ header {
 
 .main-text {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2.2rem;
     margin: 20px;
     color: #212529;
@@ -684,7 +696,7 @@ div.card-container {
 }
 
 @media screen and (max-width: 576px) {
-    h5, .h5 {
+    h5, .h5, p.auto-type {
         font-size: 1.2rem;
     }
     h1.name {

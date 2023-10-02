@@ -65,11 +65,14 @@
             <div class="col-xl-5 d-flex justify-content-center align-items-center section-column">
                 <div class="row">
                     <div class="col-12">
+                        <!--
                         <p data-text="Automated" class="amazing uppercase">
                             <span>Automated Solutions...</span>
                         <p>
+                        -->
+                        <p class="auto-type"></p>
                     </div>
-                    <div>
+                    <div class="col-12">
                         <p class="main-text">
                             Automate repetitive and mundane tasks, focus on value-adding work and innovate...
                         </p>
@@ -247,6 +250,17 @@
 
 <!--link to js script-->
 <script src="assets/js/script.js"></script>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('.auto-type', {
+        strings: ['Digital Solutions, Amazing Work...'],
+        typeSpeed: 50,
+    });
+</script>
 </body>
 
 </html>
