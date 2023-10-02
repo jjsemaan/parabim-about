@@ -221,6 +221,25 @@ p {
     }
 }
 
+.zoom-effect {
+    animation: zoom 6s ease-in-out;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        /* Adjust the scale factor as needed for your desired zoom effect */
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .uppercase {
     text-transform: uppercase;
 }
