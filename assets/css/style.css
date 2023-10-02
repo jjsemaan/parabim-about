@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,800');
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@900&display=swap');
 
 .bg-mesh {
     background: url(../images/mesh1.png);
@@ -185,14 +185,40 @@ p {
 
 .amazing {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 2px;
-    -webkit-text-stroke: 2px #20c997;
-    font-weight: 800;
-    margin: 20px;
-    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+    margin: 20px 20px 0;
+    color: #bbbbbb;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.amazing::before {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin: 20px 20px 0;
+    content: attr(data-text);
+    color: #d9492f;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-text-stroke: 2px #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
 }
 
 .uppercase {
@@ -348,6 +374,15 @@ header {
 }
 
 /* Media query for screens at or below medium (md) size */
+@media (max-width: 1199px) {
+    .amazing, .amazing::before {
+        display: none;
+    }
+    p.main-text {
+        text-align: center;
+    }
+}
+
 @media (max-width: 992px) {
     .logo {
         display: none;
@@ -358,9 +393,6 @@ header {
     }
     .container {
         padding: 0;
-    }
-    h2 {
-        font-size: 30px;
     }
 }
 
@@ -634,7 +666,7 @@ div.card-container {
 
 @media screen and (max-width: 576px) {
     h5, .h5 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     h1.name {
         font-size: 26px;
@@ -669,8 +701,9 @@ div.card-container {
     margin-left: -5px;
     margin-right: -5px;
     }
-    h2 {
-        font-size: 30px;
+    .main-text {
+        font-size: 16px;
+        font-weight: 400;
     }
 }
 
@@ -689,9 +722,6 @@ div.card-container {
     .card-container i {
         /*visibility: hidden;*/
         font-size: 26px;
-    }
-    h2 {
-        font-size: 30px; /* Adjust font size for smaller screens */
     }
 }
 
