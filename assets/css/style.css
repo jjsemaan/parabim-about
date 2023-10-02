@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@800&display=swap');
 
 .bg-mesh {
     background: url(../images/mesh1.png);
@@ -174,7 +174,6 @@ iframe {
 
 /*--------------------------------- special paddings, margins and text*/
 h1,
-h2,
 h3,
 h4 {
     margin: 0;
@@ -184,12 +183,14 @@ p {
     font-size: 1.25rem;
 }
 
-h2 {
-    font-size: 4rem;
+.amazing {
     font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px #20c997;
     font-weight: 800;
     margin: 20px;
-    color: #212529;
+    color: transparent;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -357,6 +358,9 @@ header {
     }
     .container {
         padding: 0;
+    }
+    h2 {
+        font-size: 30px;
     }
 }
 
@@ -665,6 +669,9 @@ div.card-container {
     margin-left: -5px;
     margin-right: -5px;
     }
+    h2 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 397px) {
@@ -682,6 +689,9 @@ div.card-container {
     .card-container i {
         /*visibility: hidden;*/
         font-size: 26px;
+    }
+    h2 {
+        font-size: 30px; /* Adjust font size for smaller screens */
     }
 }
 
