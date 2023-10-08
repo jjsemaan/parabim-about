@@ -237,21 +237,21 @@ p.auto-type {
 }*/
 
 .zoom-effect {
-    animation: zoom 6s ease-in-out;
+    animation: zoom 8s ease-in-out infinite;
 }
 
 @keyframes zoom {
     0% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
 
     50% {
-        transform: scale(1.05);
+        transform: scale(1);
         /* Adjust the scale factor as needed for your desired zoom effect */
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(0.8);
     }
 }
 
@@ -360,7 +360,7 @@ header {
 }
 
 .logo-parabim {
-    width: 180px;
+    width: 220px;
     /* Set the width as needed */
     height: auto;
     margin: 20px;
@@ -894,7 +894,7 @@ form {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* Change the color of links on hover */
@@ -936,13 +936,16 @@ form {
 
 @media screen and (max-width: 384px) {
     .topnav a {
-            font-size: 16px;
+            padding: 14px 8px;
         }
+    .logo-parabim {
+        padding: 0;
+    }
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 890px) {
     .topnav a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
