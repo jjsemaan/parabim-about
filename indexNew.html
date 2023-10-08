@@ -22,8 +22,17 @@
     <header>
         <div class="container-fluid">
             <div class="row" style="border-bottom: #e0e0e0 solid 1px;">
-                <div class="col-xl-4 offset-1 d-flex justify-content-left">
+                <div class="col-xl-3 offset-1 d-flex justify-content-left">
                     <img class="logo-parabim" src="assets/images/logo-trans.png" alt="Parabim Logo">
+                </div>
+                <div class="topnav col-xl-8" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -228,6 +237,17 @@
         strings: ['Digital Solutions, Amazing Work...'],
         typeSpeed: 50,
     });
+</script>
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
 </body>
 
