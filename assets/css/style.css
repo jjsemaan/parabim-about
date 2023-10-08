@@ -360,7 +360,7 @@ header {
 }
 
 .logo-parabim {
-    width: 120px;
+    width: 100px;
     /* Set the width as needed */
     height: auto;
     margin: 20px;
@@ -704,7 +704,7 @@ div.card-container {
 
 @media screen and (max-width: 576px) {
     h5, .h5, p.auto-type {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     h1.name {
         font-size: 26px;
