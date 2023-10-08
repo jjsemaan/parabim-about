@@ -360,7 +360,7 @@ header {
 }
 
 .logo-parabim {
-    width: 100px;
+    width: 180px;
     /* Set the width as needed */
     height: auto;
     margin: 20px;
@@ -885,14 +885,12 @@ form {
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
-    display: flex;
     align-items: center;
-    justify-content: right;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: #929292;
+    color: #797979;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -907,7 +905,7 @@ form {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    color: black;
+    color: #747474;
     font-weight: bolder;
 }
 
@@ -933,13 +931,24 @@ form {
         display: block;
         text-align: right;
     }
+}
 
+@media screen and (max-width: 384px) {
     .topnav a {
-        color: #f2f2f2;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 6px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+}
+
+@media screen and (max-width: 815px) {
+    .topnav a {
+        color: #979797;
         text-align: center;
         padding: 14px 6px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 18px;
     }
-
 }
