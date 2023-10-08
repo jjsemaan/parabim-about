@@ -761,12 +761,6 @@ div.card-container {
         /*visibility: hidden;*/
         font-size: 26px;
     }
-    .logo-parabim {
-        width: 80px;
-        /* Set the width as needed */
-        height: auto;
-        margin: 20px 0;
-    }
 }
 
 .thumbnail img {
@@ -887,7 +881,7 @@ form {
 }
 
 
-/* Add a black background color to the top navigation */
+/* Add a white background color to the top navigation */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
@@ -898,11 +892,11 @@ form {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: #f2f2f2;
+    color: #929292;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -913,25 +907,13 @@ form {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    color: black;
+    font-weight: bolder;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 700px) {
-    .topnav a {
-        display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -951,4 +933,13 @@ form {
         display: block;
         text-align: right;
     }
+
+    .topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 6px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
 }
