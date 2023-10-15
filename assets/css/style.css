@@ -984,6 +984,10 @@ form {
     background-color: #e84610;
 }
 
+button.tablink {
+    background: #707070;
+}
+
 #Paris {
     background-color: #638bfd;
 }
