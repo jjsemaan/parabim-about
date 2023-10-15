@@ -770,14 +770,14 @@ div.card-container {
 
 img.img-fluid {
     margin: 0;
-    padding: 80px 10px 0;
+    padding: 40px 10px 0;
     vertical-align: middle;
     border-style: none;
 }
 
 img.img-fluid:last-child {
-    margin-bottom: 60px;
-    padding: 80px 10px 0;
+    margin-bottom: 3three-reasons-heading-noclick0px;
+    padding: 40px 10px 0;
     vertical-align: middle;
     border-style: none;
 }
@@ -830,6 +830,8 @@ img.img-fluid:last-child {
 /*----------------------------Portfolio*/
 .portfolio-menu {
     text-align: center;
+    /*portfolio fileter menu hidden because it has buttons to filter Power Apps from Power BI from Power Pages and to show all*/
+    display: none;
 }
 
 .portfolio-menu li {
@@ -845,6 +847,12 @@ img.img-fluid:last-child {
     transition: all .5s ease;
 }
 
+.portfolio-heading {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .portfolio-item {
     margin-left: 40px;
 }
@@ -855,6 +863,9 @@ img.img-fluid:last-child {
     margin-bottom: 10px;
 }
 
+div.item.selfie {
+    padding: 0;
+}
 
 /*----------------------------Contact us form*/
 form {
