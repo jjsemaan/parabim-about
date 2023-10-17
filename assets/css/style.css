@@ -341,7 +341,7 @@ header {
 }
 
 .img-power-icons {
-    width: 60%;
+    width: 80%;
     margin: 20px;
     padding: 0 10px;
     vertical-align: middle;
@@ -783,7 +783,7 @@ div.card-container {
         font-size: 26px;
     }
     .img-power-icons {
-    width: 100%;
+        width: 100%;
     }
 }
 
@@ -1087,7 +1087,7 @@ form {
 
 /* Style each tab content individually */
 #London {
-    background-color: #e84610;
+    background-color: #822A7B;
 }
 
 button.tablink {
@@ -1099,9 +1099,9 @@ button.tablink {
 }
 
 #Tokyo {
-    background-color: #eec102;
+    background-color: #caa604;
 }
 
 #Oslo {
-    background-color: #64b244;
+    background-color: #1AB1D6;
 }
