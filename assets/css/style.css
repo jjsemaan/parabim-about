@@ -242,7 +242,7 @@ p.auto-type {
 
 @keyframes zoom {
     0% {
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 
     50% {
@@ -251,7 +251,7 @@ p.auto-type {
     }
 
     100% {
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 }
 
@@ -378,7 +378,7 @@ header {
 }
 
 .logo-parabim {
-    width: 200px;
+    width: 240px;
     /* Set the width as needed */
     height: auto;
     margin: 20px;
