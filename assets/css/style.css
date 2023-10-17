@@ -186,7 +186,7 @@ p {
 
 p.auto-type {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 44px;
     margin: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -335,7 +335,7 @@ header {
 }
 
 .img-fluid {
-    max-height: 600px;
+    max-height: 500px;
     padding-left: 0;
     margin-bottom: 5px;
 }
@@ -360,7 +360,7 @@ header {
 }
 
 .logo-parabim {
-    width: 220px;
+    width: 200px;
     /* Set the width as needed */
     height: auto;
     margin: 20px;
@@ -787,7 +787,7 @@ img.img-fluid:last-child {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 200px;
+    height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -797,6 +797,7 @@ img.img-fluid:last-child {
 }
 
 /*.canvas.particles-js-canvas-el {
+    position: absolute;
     width: 0;
     height: 0;
 }*/
@@ -809,7 +810,7 @@ img.img-fluid:last-child {
 /* ---- stats.js ---- */
 
 .js-count-particles {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 #stats,
@@ -909,7 +910,7 @@ form {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Change the color of links on hover */
@@ -960,7 +961,7 @@ form {
 
 @media screen and (max-width: 890px) {
     .topnav a {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
