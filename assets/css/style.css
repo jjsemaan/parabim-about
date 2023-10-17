@@ -787,13 +787,83 @@ img.img-fluid:last-child {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     left: 0;
     z-index: 2;
+    height: 400px;
+    /* Default height */
+}
+
+/* Define the height at different breakpoints */
+@media (max-width: 5000px) and (min-width: 1601px) {
+    #particles-js {
+        height: 310px;
+        /* Adjust the desired height */
+    }
+}
+@media (max-width: 1600px) and (min-width: 992px) {
+
+    /* For xl screens and below */
+    #particles-js {
+        height: 340px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* For lg screens and below */
+    #particles-js {
+        height: 400px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+
+    /* For md screens and below */
+    #particles-js {
+        height: 500px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 575px) and (min-width: 485px) {
+
+    /* For sm screens and below */
+    #particles-js {
+        height: 440px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 484px) and (min-width: 425px) {
+
+    /* For sm screens and below */
+    #particles-js {
+        height: 500px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 424px) and (min-width: 380px) {
+
+    /* For sm screens and below */
+    #particles-js {
+        height: 560px;
+        /* Adjust the desired height */
+    }
+}
+
+@media (max-width: 379px) {
+
+    /* For sm screens and below */
+    #particles-js {
+        height: 700px;
+        /* Adjust the desired height */
+    }
 }
 
 /*.canvas.particles-js-canvas-el {
