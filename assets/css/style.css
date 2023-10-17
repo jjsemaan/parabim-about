@@ -339,7 +339,25 @@ header {
     padding-left: 0;
     margin-bottom: 5px;
 }
+
+.img-power-icons {
+    width: 60%;
+    margin: 20px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border-style: none;
+}
+
 .img-fluid-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    max-height: 600px;
+}
+
+.img-fluid-container-icons {
     display: flex;
     justify-content: center;
     /* Center horizontally */
@@ -431,6 +449,9 @@ header {
     }
     .container {
         padding: 0;
+    }
+    .img-power-icons {
+    width: 85%;
     }
 }
 
@@ -760,6 +781,9 @@ div.card-container {
     .card-container i {
         /*visibility: hidden;*/
         font-size: 26px;
+    }
+    .img-power-icons {
+    width: 100%;
     }
 }
 
