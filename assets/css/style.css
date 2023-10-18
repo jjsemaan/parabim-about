@@ -797,18 +797,15 @@ img.img-fluid {
     margin: 0;
     padding: 40px 10px 10px;
     vertical-align: middle;
-    border-style: none;
 }
 
 img.img-fluid:last-child {
     margin-bottom: 30px;
     padding: 40px 10px 10px;
     vertical-align: middle;
-    border-style: none;
 }
 
 /* ---- particles.js container ---- */
-
 #particles-js {
     position: absolute;
     width: 100%;
