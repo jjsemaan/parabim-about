@@ -942,6 +942,9 @@ img.img-fluid:last-child {
     -o-transition: all 05s ease;
     transition: all .5s ease;
 }
+/*.container {
+    margin: 0;
+}*/
 
 .portfolio-heading {
     font-size: 1.3rem;
