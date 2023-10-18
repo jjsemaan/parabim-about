@@ -378,11 +378,11 @@ header {
 }
 
 .logo-parabim {
-    width: 240px;
+    width: 70px;
     /* Set the width as needed */
     height: auto;
-    margin: 20px;
-    padding-left: 10px;
+    margin: 15px;
+    padding-left: 0;
 }
 
 .logo:before {
