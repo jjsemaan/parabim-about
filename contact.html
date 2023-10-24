@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="icon" href="assets/images/PB-logo-trans.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,48 +22,56 @@
 
 <body>
     <header>
-        <div class="row no-gutters">
-            <a class="col-lg-4 logo" target="_blank" href="https://parabim.com" rel="nooppener noreferrer"></a>
-            <div class="col-md-12 col-lg-8">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
-                        <h1 class="name">ParaBIM Ltd.</h1>
-                        <h2 class="title">
-                            Microsoft Power Platform Developers<br>
-                            Software solutions for smarter, more efficient business operations.
-                        </h2>
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row" style="border-bottom: #e0e0e0 solid 1px;">
+                    <div
+                        class="col-12 col-md-5 offset-md-1 col-xs-12 d-flex justify-content-center justify-content-md-start">
+                        <a href="https://www.parabim.com">
+                            <img class="logo-parabim" src="assets/images/NewLogoPaaraBIM.jpg" alt="Parabim Logo">
+                        </a>
                     </div>
-                </div>
-
-                <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a target="_blank" href="index.html" rel="nooppener noreferrer"
-                                    class="hvr-sweep-to-bottom"><i class="fa fa-home"
-                                        aria-hidden="true"></i><span>Home</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-projects menuitem">
-                                <a href="projects.html" class="hvr-sweep-to-bottom"><i
-                                        class="fa fa-book" aria-hidden="true"></i><span>Projects</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-phone-square"
-                                        aria-hidden="true"></i><span>Contact</span></a>
-                            </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="assets/portfolio/ParaBIM Apps Presentation.pdf" class="hvr-sweep-to-bottom" target="_blank"><i class="fa fa-download"
-                                        aria-hidden="true"></i><span>Download</span></a>
-                            </li>
-                        </ul>
+                    <div class="topnav col-12 col-md-5 col-xs-12 d-flex justify-content-center justify-content-md-end"
+                        id="myTopnav">
+                        <a href="index.html" class="active">HOME</a>
+                        <a href="projects.html">PROJECTS</a>
+                        <a href="contact.html">CONTACT</a>
                     </div>
-                </div>
-                <div id="particles-js">
                 </div>
             </div>
         </div>
     </header>
-    <section class="container-fluid justify-content-center">
+    <section class="container-fluid bg-mesh">
+        <div class="row justify-content-center">
+            <div class="col-xl-5 d-flex justify-content-center align-items-center section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="auto-type"></p>
+                    </div>
+                    <div class="col-12">
+                        <p class="main-text">
+                            Automate repetitive and mundane tasks, focus on value-adding work and innovate...
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <div class="img-fluid-container-icons">
+                            <img src="assets/images/power-icons-text.png" alt="power platform icons"
+                                class="img-power-icons">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 d-flex justify-content-center align-items-center section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="img-fluid-container">
+                            <img src="assets/images/Teams-Integrated App.png" alt="power platform teams integrated app"
+                                class="img-fluid zoom-effect">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-xl-4">
                 <h4 class="three-reasons-heading-noclick uppercase">Contact Us</h4>
@@ -109,8 +118,8 @@
     </section>
 
     <footer id="footer-details" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
+        <div class="row mt-4">
+            <div class="col-sm-4 mb-4">
                 <h5 class="uppercase general-sub text-center">Download Portfolio</h5>
                 <p class="inline-block text-center">
                     <a href="assets/portfolio/ParaBIM Apps Presentation.pdf" target="_blank" class="portfolio-pdf">
@@ -119,7 +128,7 @@
                     </a>
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-4">
                 <h5 class="uppercase general-sub text-center">Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
@@ -160,13 +169,23 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 mb-4">
                 <h5 class="uppercase general-sub text-center">ParaBIM Ltd. © 2023. All rights reserved.</h5>
             </div>
         </div>
     </footer>
 <!--link to js script-->
 <script src="assets/js/script.js"></script>
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('.auto-type', {
+        strings: ['Need Help, Contact Us...'],
+        typeSpeed: 50,
+    });
+</script>
 </body>
 
 </html>
