@@ -142,7 +142,7 @@ function SendMail() {
         email_id : document.getElementById("email.id").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_lsnrkzb", "template_parabim",params).then(function (res) {
+    emailjs.send("service_lsnrkzb", "template_parabim", params, "X4zbP3xhGfuVMpXuj").then(function (res) {
         alert("Success!" + res.status)
     })
 }
