@@ -1,7 +1,5 @@
 /* ---- particles.js config ---- */
 
-const { EmailJSResponseStatus } = require('@emailjs/browser');
-
 particlesJS("particles-js", {
     "particles": {
         "number": {
@@ -133,3 +131,4 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
