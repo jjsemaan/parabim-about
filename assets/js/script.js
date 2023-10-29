@@ -1,5 +1,7 @@
 /* ---- particles.js config ---- */
 
+const { EmailJSResponseStatus } = require('@emailjs/browser');
+
 particlesJS("particles-js", {
     "particles": {
         "number": {
@@ -131,3 +133,16 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+
+/* ---- emailjs config ---- */
+function SendMail() {
+    var params = {
+        form_name : document.getElementById("fullName").value,
+        email_id : document.getElementById("email.id").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_lsnrkzb", "template_parabim",params).then(function (res) {
+        alert("Success!" + res.status)
+    })
+}
