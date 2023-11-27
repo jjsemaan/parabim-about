@@ -172,6 +172,15 @@ iframe {
     margin-bottom: 20px;
 }*/
 
+/*---------------------------------Contact-form**/
+#contact-form {
+    padding: 0 10px;
+}
+
+.input-group-prepend {
+    padding: 0 10px 0 0;
+}
+
 /*--------------------------------- special paddings, margins and text*/
 h1,
 h3,
