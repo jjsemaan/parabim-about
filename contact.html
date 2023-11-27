@@ -85,12 +85,12 @@
                 <form id="contact-form">
                     <!-- Name input -->
                     <div class="form-outline mb-4">
-                        <input type="text" name="form_name" class="form-control" placeholder="Name" />
+                        <input type="text" name="form_name" class="form-control" id="name_id" placeholder="Name" required />
                     </div>
                 
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" id="email_id" name="email_id" class="form-control" placeholder="Email" />
+                        <input type="email" id="email_id" name="email_id" class="form-control" placeholder="Email" required/>
                     </div>
                 
                     <!-- Mobile number input with country code dropdown -->
@@ -353,12 +353,12 @@
                             </select>
                         </div>
                         <!-- Mobile number input -->
-                        <input type="text" name="mobile_number" class="form-control" placeholder="Mobile Number" />
+                        <input type="text" id="mobile_id" name="mobile_number" class="form-control" placeholder="Mobile Number" required/>
                     </div>
                 
                     <!-- Message input -->
                     <div class="form-outline mb-4">
-                        <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                        <textarea name="message" id="message_id" class="form-control" rows="4" placeholder="Message" required></textarea>
                     </div>
                 
                     <!-- Submit button -->
