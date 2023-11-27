@@ -181,6 +181,10 @@ iframe {
     padding: 0 10px 0 0;
 }
 
+div.col-xl-8 {
+    padding: 0;
+}
+
 /*--------------------------------- special paddings, margins and text*/
 h1,
 h3,
