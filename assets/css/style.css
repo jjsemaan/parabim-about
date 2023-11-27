@@ -616,6 +616,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin-top: auto;
+    z-index: 4;
 }
 
 .portfolio-pdf i {
