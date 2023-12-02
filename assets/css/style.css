@@ -619,8 +619,8 @@ footer {
     z-index: 4;
 }
 
-.portfolio-pdf i {
-    font-size: 18px;
+.bloglink i {
+    font-size: 24px;
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
@@ -629,7 +629,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.portfolio-pdf i:hover {
+.bloglink i:hover {
     color: #eec102;
 }
 
