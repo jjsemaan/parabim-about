@@ -8,6 +8,7 @@ document.getElementById("contact-form-button").addEventListener("click", functio
     sendEmail(); // Call the sendEmail function when the button is clicked
 });*/
 
+/* ---- emailjs config ---- */
 function sendEmail() {
     emailjs.sendForm("service_lsnrkzb", "template_parabim", "#contact-form")
         .then(function (response) {
